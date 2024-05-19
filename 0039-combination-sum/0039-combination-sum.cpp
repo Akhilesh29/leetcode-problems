@@ -11,7 +11,7 @@ public:
         if(sum > target || i == n) 
             return;
         
-		//dont want to take the current element
+		//dont want to take the current element.
 
         func(a,target,i+1,sum,n,same,ans);
         

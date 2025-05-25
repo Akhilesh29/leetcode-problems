@@ -4,7 +4,7 @@ public:
     void solve(vector<vector<int>>&ans,vector<int>output,vector<int>&nums,int index){
         
 
-        if(index==nums.size()){ // base condition
+        if(index==nums.size()){ //---> base condition
             ans.push_back(output);
             return;
         }

@@ -1,9 +1,7 @@
 class LRUCache {
 public:
     LRUCache(int capacity): capacity(capacity) {
-
     }
-
     int get(int key) {
         if(umap.count(key)){
             auto node = umap[key];
